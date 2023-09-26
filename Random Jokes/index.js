@@ -6,7 +6,7 @@ var images=["./images/chuck.png",
 "./images/chuck_norris_PNG18.png",
 "./images/chuck_norris_PNG26.png"];
 async function StealJokeWithFetch(){
-    const JokeSourse ='https://pereselakilya.github.io/Chusks-Jokes/JokeSource.json';
+    const JokeSourse ='https://pereselakilya.github.io/Chusks-Jokes/Random Jokes/JokeSource.json';
     const joke=await fetch(JokeSourse);
     const jokeText=await joke.json();
     var jokesArr=jokeText["text"];
